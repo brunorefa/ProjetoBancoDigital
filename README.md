@@ -47,4 +47,4 @@ Valor total a pagar: R$ 12130.12
 Valor da parcela (24x): R$ 505.42
 
 📄 Licença
-Este projeto é de uso educacional e está livre para estudo e modificação.
+Este projeto é de uso educacional e está livre para estudo e modificação.# ProjetoBancoDigital
