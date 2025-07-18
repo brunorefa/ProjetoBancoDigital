@@ -1,18 +1,50 @@
-## Getting Started
+# 💳 Sistema Bancário em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto simula um sistema bancário simples, com operações básicas como criação de contas, movimentações financeiras e simulação de empréstimos. Ele foi desenvolvido utilizando princípios de orientação a objetos em Java.
 
-## Folder Structure
+## 📁 Estrutura do Projeto
 
-The workspace contains two folders by default, where:
+- `Main.java` — Classe principal que executa o programa de teste com cliente, conta e empréstimo.
+- `Banco.java` — Representa o banco e gerencia a lista de contas existentes.
+- `Cliente.java` — Cria um cliente que recebe automaticamente uma conta corrente e uma poupança.
+- `Conta.java` — Classe abstrata base para contas bancárias. Implementa métodos comuns como sacar, depositar e transferir.
+- `ContaCorrente.java` — Representa uma conta corrente. Possui extrato personalizado.
+- `ContaPoupanca.java` — Representa uma conta poupança. Também possui extrato personalizado.
+- `Emprestimo.java` — Classe que calcula parcelas de um empréstimo com juros compostos mensais.
+- `IConta.java` — Interface com as operações básicas de uma conta bancária.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## ⚙️ Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Cadastro automático de contas ao criar um cliente.
+- Operações bancárias:
+  - Depósito
+  - Saque
+  - Transferência entre contas
+- Geração de extratos (corrente e poupança)
+- Simulação de empréstimos:
+  - Cálculo da parcela mensal
+  - Cálculo do total a pagar
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🚀 Como Executar
 
-## Dependency Management
+1. Certifique-se de ter o Java JDK instalado (Java 8 ou superior).
+2. Compile todos os arquivos `.java`:
+3. Execute a aplicação:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+java Main
+
+🧪 Exemplo de Saída Esperada
+makefile
+Copiar
+Editar
+=== Extrato da Conta Corrente ===
+Cliente: Bruno
+Agência: 29
+Número: 1
+Saldo: R$ 0.00
+
+Valor total a pagar: R$ 12130.12
+Valor da parcela (24x): R$ 505.42
+
+📄 Licença
+Este projeto é de uso educacional e está livre para estudo e modificação.
