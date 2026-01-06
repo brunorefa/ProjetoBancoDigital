@@ -1,8 +1,8 @@
-# 💳 Sistema Bancário em Java
+# Sistema Bancário em Java
 
 Este projeto simula um sistema bancário simples, com operações básicas como criação de contas, movimentações financeiras e simulação de empréstimos. Ele foi desenvolvido utilizando princípios de orientação a objetos em Java.
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 - `Main.java` — Classe principal que executa o programa de teste com cliente, conta e empréstimo.
 - `Banco.java` — Representa o banco e gerencia a lista de contas existentes.
@@ -13,7 +13,7 @@ Este projeto simula um sistema bancário simples, com operações básicas como 
 - `Emprestimo.java` — Classe que calcula parcelas de um empréstimo com juros compostos mensais.
 - `IConta.java` — Interface com as operações básicas de uma conta bancária.
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - Cadastro automático de contas ao criar um cliente.
 - Operações bancárias:
